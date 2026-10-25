@@ -4,6 +4,10 @@ Aplikasi web modern untuk proses awal penerimaan prajurit TNI (Tamtama, Bintara,
 
 ---
 
+📖 **Buku Panduan Pengguna (Manual Book)** lengkap tersedia pada dokumen: [**`MANUAL_BOOK.md`**](MANUAL_BOOK.md).
+
+---
+
 ## 🎖️ Fitur Utama Aplikasi
 
 1. **Autentikasi & Role-Based Access Control (RBAC)**:
