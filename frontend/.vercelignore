@@ -1,0 +1,33 @@
+# ====================================================================
+# .vercelignore - Frontend Directory (when Root Directory is set to frontend)
+# ====================================================================
+
+# Dependencies
+node_modules/
+
+# Local Environment Variables & Secrets
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Git & Editor
+.git/
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Test Files
+*.test.js
+*.test.jsx
+*.spec.js
+*.spec.jsx

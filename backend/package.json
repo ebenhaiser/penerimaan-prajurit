@@ -1,0 +1,40 @@
+{
+  "name": "penerimaan-prajurit-backend",
+  "version": "1.0.0",
+  "description": "Backend API Sistem Penerimaan Prajurit Terintegrasi Berbasis AI",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "penerimaan-prajurit",
+    "military-recruitment",
+    "ai-recommendation",
+    "express",
+    "supabase"
+  ],
+  "author": "Antigravity Team",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "penerimaan-prajurit-root": "file:..",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0",
+    "vitest": "^2.1.1"
+  }
+}
